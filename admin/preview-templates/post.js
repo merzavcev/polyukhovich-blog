@@ -16,13 +16,11 @@ const Post = createClass({
             <small>
               <time
                 >${
-                  format(
+                  /*format(
                     entry.getIn(["data", "date"], new Date()),
                     "dd MMM, yyyy"
-                  )
-                }</time
-              >
-              ${" by Author"}
+                  )*/''
+                }</time>
             </small>
           </p>
 
