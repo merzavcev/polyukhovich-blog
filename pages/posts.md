@@ -1,9 +1,9 @@
 ---
 layout: layouts/posts.njk
-title: Blog
+title: Все записи
 date: 2017-01-01
 permalink: /posts/index.html
 eleventyNavigation:
-  key: Blog
+  key: Все записи
   order: 2
 ---

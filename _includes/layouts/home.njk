@@ -5,7 +5,7 @@ section: home
 
 {{ layoutContent | safe }}
 
-{% set postslist = collections.post | head(-6) %}
+{% set postslist = collections.post | head(-4) %}
 {% include "components/postslist.njk" %}
 
 <p><a href="{{ '/posts/' | url }}">Больше записей</a></p>
