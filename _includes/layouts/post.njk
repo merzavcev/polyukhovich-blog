@@ -7,7 +7,7 @@ section: post
   <h1>{{ title }}</h1>
   <p>
     <small>
-      <time datetime="{{ date | machineDate }}">{{ date | readableDate }}</time> by <a href="/authors/{{ author | slug }}/">{{ author }}</a>
+      <time datetime="{{ date | machineDate }}">{{ date | readableDate }}</time>
     </small>
   </p>
 
@@ -27,5 +27,26 @@ section: post
 </article>
 
 <nav>
-  <a href="{{ '/blog/' | url }}">← Blog index</a>
+  <a href="{{ '/posts/' | url }}">← Blog index</a>
 </nav>
+
+{# <ul class="siblings">
+  {%- set nextPost = collections.posts | getNextCollectionItem(page) %}
+  {%- if nextPost %}
+    <li class="siblings__item siblings__item_next">
+      <a href="{{ nextPost.url | url }}">
+        Свежее<br>
+        <b>{{ nextPost.data.title }}</b>
+      </a>
+    </li>
+  {% endif %}
+  {%- set previousPost = collections.posts | getPreviousCollectionItem(page) %}
+  {%- if previousPost %}
+    <li class="siblings__item siblings__item_prev">
+      <a href="{{ previousPost.url | url }}">
+        Старее<br>
+        <b>{{ previousPost.data.title }}</b>
+      </a>
+    </li>
+  {% endif %}
+</ul> #}

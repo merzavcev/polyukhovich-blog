@@ -1,8 +1,8 @@
 ---
-layout: layouts/blog.njk
+layout: layouts/posts.njk
 title: Blog
 date: 2017-01-01
-permalink: /blog/index.html
+permalink: /posts/index.html
 eleventyNavigation:
   key: Blog
   order: 2
