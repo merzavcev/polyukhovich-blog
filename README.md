@@ -1,0 +1,1 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/5a16c6d6-4aa0-468e-9fc5-06cfaf82327d/deploy-status)](https://app.netlify.com/sites/modest-ride-3185b4/deploys)
